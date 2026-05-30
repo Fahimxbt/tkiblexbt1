@@ -221,6 +221,33 @@ async def handler(event):
     if event.out:
         return
     
+    # ========== PARTNER LEFT THE CHAT ==========
+    if 'partner has left' in text.lower() or 'partner ended' in text.lower():
+        print("[✓] Partner left the chat!")
+        match_active = False
+        promo_sent = False
+        
+        if sending_lock.locked():
+            print("[!] Cancelling promo...")
+            promo_cancelled = True
+            for _ in range(100):
+                if not sending_lock.locked():
+                    break
+                await asyncio.sleep(0.1)
+        
+        await asyncio.sleep(2)
+        await click_next()
+        return
+    
+    # ========== YOU LEFT THE CHAT ==========
+    if 'you left' in text.lower():
+        print("[✓] You left the chat")
+        match_active = False
+        promo_sent = False
+        await asyncio.sleep(2)
+        await click_next()
+        return
+    
     # ========== MATCH STARTED ==========
     if 'Match successful' in text:
         print("[+] Match started!")
