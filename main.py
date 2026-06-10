@@ -5,7 +5,7 @@ import asyncio
 import sys
 
 # ========== HARDCODED CONFIG ==========
-STRING_SESSION = '1BVtsOHgBuwWUs-v-r6r8ys2-6lHFIiSIejukN4GYCOo1zhYMHO6TvyUtG9VmS6iEgmnBzV0guTNRvoEI5D0jxPLrJ3hap2w84MIhgcZDAxPayFm27yuvgFEbM1_N1M0Crqyjc8b39b-0rmZbQUA2JpJgWKATJI-u0bRXNUH-4MPjY6e1piUR21bu_aDOU9JBmESOfMRdJRH8HnOzNhmlOAu4vzLskB3Sa8eWdk57CT12aEzMXm_7zX0UBHTp6TpdU5sElTB4VruLlN_pOivGwsueET2F9W3ogfP0gTnyi81rA_ycx6K18zZW6pDAlBXRpMqQ1lqX4fkElNoRyO3QyzGPSlon8Fs='
+STRING_SESSION = '1BVtsOKcBu3Q1J_DVpoYr2eAkqIIz-lcga6QwZ_elbq1JsKXF8qTmgVXYv3ykke8dYg4Aqp1ZeirxcBvwlin1QS3PNOqOe9J0mmZX1uTVoWDcQb-TzmxZnOMyrmwv4Wotj82hIiNTk6IvrxED6rA6XshXBG8ST_2PN78vQX651KnINFs_MwtbIPP5CZHirfnRN2cdeT84dTtL27ODNgfXe-Gn_8cYLFQz3nEX6NqxZxoJAzvtapi9oVkt0hOZBHmrHdX3VoJ36tWm-ucJmzXNtnirw3jUQ9kqitXhh8WVcSui2ZgeDZ9MYmgl0UX970buyBbySeLPuo2zDsmb8A6i6zb06lhxtXc='
 API_ID = 31653365
 API_HASH = '46fa4b3be1dd2f89dc84d447cf3fc820'
 # ======================================
